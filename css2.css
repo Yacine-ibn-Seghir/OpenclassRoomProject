@@ -18,3 +18,34 @@ ul { width: 200px; list-style-type: none;} /*Faire disparaître les puces*/
 
 #block-droite { background-color: #ffffff; width: 70%; padding-top: 60px; padding-left: 30px; padding right: 30px; height: 100%;}
 
+#blockLoisirs { position: absolute; bottom: 45px; width: 100%;}
+
+#blockLoisirs h2 { margin-bottom: 40px; }
+
+.title { text-align-last: center; width:100%; background-color: #263238;}
+
+.text-light-green { color: #4CAF50;}
+
+.marge { margin-top: 40px; }
+
+.loisirs { display: flex; }
+
+/*.fa-book-reader { border: 2px; padding: 4px; border-radius: 100%; margin-left: 50px;}*/
+
+/*.fa-laptop-code { margin-left: 50px; margin-bottom: 100px; border: 2px; padding: 4px; border-radius: 100%;}*/
+
+.fa-briefcase {margin-top: 19px; margin-left: 40px; font-size: 1.5em } /*<i class=" fa-edit"></i>*/
+
+.fa-edit {margin-top:80px; margin-left: 40px; font-size: 1.5em;}
+
+.bg-light-green { background-color: #4CAF50;}
+
+.nom-prénom { display: flex; margin-top: 50px;}
+
+.prénom { font-size: 3em; color: #4CAF50; margin-left: 50px;}
+
+.nom { font-size: 3em; margin-left: 50px;}
+
+.bagneux { width: 80%; text-align: justify; }
+
+.marge-dev { margin-top: -20px; margin-left: 120px; font-size: 2em; margin-bottom: 0px; }
