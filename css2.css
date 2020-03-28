@@ -49,3 +49,19 @@ ul { width: 200px; list-style-type: none;} /*Faire disparaître les puces*/
 .bagneux { width: 80%; text-align: justify; }
 
 .marge-dev { margin-top: -20px; margin-left: 120px; font-size: 2em; margin-bottom: 0px; }
+
+.trait-dev { height: 1px; margin-left: 12.5%; margin-right: 80%;}
+
+.trait { height: 1px; margin-left: 3%; margin-right: 3%;}
+
+.flex { display: flex;}
+
+.fa-user-graduate { margin-top: 130px; margin-left: 40px; font-size: 1.5em}
+
+.marge-puce { padding-left: 40px;}
+
+.marge-paragraphe { margin-left: 20px;}
+
+.marge-cercle { margin-left: 40px; margin-top: 15px; }
+
+.marge-liste { padding-left: 10px;}
