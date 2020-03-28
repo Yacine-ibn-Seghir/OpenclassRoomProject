@@ -65,3 +65,23 @@ ul { width: 200px; list-style-type: none;} /*Faire disparaître les puces*/
 .marge-cercle { margin-left: 40px; margin-top: 15px; }
 
 .marge-liste { padding-left: 10px;}
+
+.marge-recommandation { margin-top: 80px; margin-left: 20px;}
+
+.marge-expérience { margin-left: 20px;}
+
+.marge-à-propos {margin-top: 60px; margin-bottom: 50px; padding-left: 30px; padding-right: 30px; text-align: justify;}
+
+.coordonnées { margin-top: 80px; margin-bottom: 80px; padding-right: 50px; padding-left: 70px;}
+
+.marge-formation { margin-top: 130px; margin-left: 20px; font-size: 1.5em;}
+
+.loisirs-couleurs{ width: 60px; height: 60px; border:#263238 2px solid; padding: 10px; border-radius: 100%; color:#263238;}
+
+.fa-circle { font-size: 0.7em;}
+
+.fa-dot-circle { font-size: 0.8em;}
+
+.logos {margin:auto; text-align: center;}
+
+.flex-marge { display: flex; margin-top: 20px; margin-bottom: 20px;}
