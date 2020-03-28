@@ -85,3 +85,33 @@ ul { width: 200px; list-style-type: none;} /*Faire disparaître les puces*/
 .logos {margin:auto; text-align: center;}
 
 .flex-marge { display: flex; margin-top: 20px; margin-bottom: 20px;}
+
+#nom-responsive {display: none;}
+
+@media all and (min-width: 200px) and (max-width: 1024px)
+
+{
+
+ #img {margin: auto;}
+
+ .nom-prénom { display: none;}
+
+ .coordonnées {margin: auto; padding-left: 360px;}
+
+ .trait-dev { height: 1px; margin-left: 17.5%; margin-right: 71%;}
+
+ .marge-à-propos {width: 70%; margin-top: 80px; margin-bottom: -25px; padding-left: 125px; padding-right: 30px; text-align: justify;}
+
+ #ensemble-des-blocks { flex-direction: column;}
+
+  #nom-responsive {display: block;}
+
+  #block-gauche { width: 100%;}
+}
+/* Création de cercle en CSS 
+.fa-circle
+{
+	border: 2px red solid;
+	padding: 4px;
+	border-radius: 100%;
+}*/
