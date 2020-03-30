@@ -82,6 +82,8 @@ ul { width: 200px; list-style-type: none;} /*Faire disparaître les puces*/
 
 .fa-dot-circle { font-size: 0.8em;}
 
+.marge {margin-right: 150px;}
+
 .logos {margin:auto; text-align: center;}
 
 .flex-marge { display: flex; margin-top: 20px; margin-bottom: 20px;}
