@@ -7,7 +7,7 @@ ul { width: 200px; list-style-type: none;} /*Faire disparaître les puces*/
 
 #ensemble-des-blocks { display: flex; /*Permet d'aligner les blocks: le block1; */}
 
-#block-gauche {position: relative; width: 30%; height: 1816px; padding-top: 100px;} 
+#block-gauche {position: relative; width: 30%; height: 1840px; padding-top: 100px;} 
 
 #img { display: block; width: 60%; border-radius: 100%; margin: auto;} /*image C.V */
 
@@ -84,6 +84,7 @@ ul { width: 200px; list-style-type: none;} /*Faire disparaître les puces*/
 .flex-marge { display: flex; margin-top: 20px; margin-bottom: 20px;}
 
 #nom-responsive {display: none;}
+
 /* 
 @media all and (min-width: 768px) and (max-width: 1024px)
 
@@ -122,27 +123,36 @@ ul { width: 200px; list-style-type: none;} /*Faire disparaître les puces*/
 
 {
 
-#ensemble-des-blocks { display: flex; flex-direction: column;/*Permet d'aligner les blocks: le block1; */}
+#ensemble-des-blocks { display: flex; flex-direction: column; width: 114%; /*Permet d'aligner les blocks: le block1; */}
 	 #block-gauche {flex-direction: column; height: 1200px; width: 100%;  padding-top: 45px;}
 	 #block-droite { width: 100%; padding-left: 0px; padding-right: 0px }
 	 #img { display: block; width: 50vw; border-radius: 100%; margin: auto;}
 	 #nom-responsive { display: block; }
 	 .nom-prénom { display: none; }
-	 .prénom { font-size: 10vw; margin-left: 9%; }
-	 .nom {font-size: 9vw; margin-right: 9%; margin-left: 0px}
-	 .marge-cercle { display: none; }
+	 .prénom { font-size: 9vw; margin-left: 19%; margin-right: 0%; }
+	 .trait-dev { height: 1px; margin-left: 18.5%; margin-right: 63%; margin-bottom: 7%;}
+	 .nom {font-size: 9vw; margin-left: 0px; margin-right: 0px; }
 	 .flex-marge {flex-direction: column;}
 	 h2 { font-size: 5vw !important;}
-	 .invisible {display: none;}
-	 .marge-dev {  font-size: 7vw; text-align: center; margin-left: 0px; }
-	 .bagneux {width: 100%; text-align: left;}
-	 .marge-puce {display: flex;}
-	 .marge-puce li{ margin-right: 10px; }
-}
+	 .invisible {display:none;}
+	 .marge-dev { font-size: 7vw; margin-left: 15%; text-align: center;}
+	 .bagneux {width: 90%;  margin-left: 0%; text-align: justify;}
+	 .marge-puce li{ margin-right: 1px; margin-top: -1.5%; }
+	 .icône-resp{margin-top: 45px; margin-left: 7%;}
+	 .marge-resp { margin-top: 50px; margin-left: 20px; }
+	 .inline {display: inline;}
+	 .resp-marge2019{margin-top: -8.2%; margin-left: 7%}
+	 .resp-marge2018{ margin-top: -8%; margin-left: 7%; }
+	 .resp-marge2007{ margin-top: -8.3%; margin-left: 7% }
+	 .marge-paragraphe {margin-left: 17%;}
+	 .resp-marge-top {margin-top: 0%;}
+	 .marge-liste{margin-top: -6%; padding-left: 21px;}
+	 .resp-marge-contact { margin-top: -5%; margin-left: 12%; }
+
 
 @media all and (min-width: 1024px) and (max-width: 1100px)
 {
  .trait-dev { height: 1px; margin-left: 12%; margin-right: 80%;}
 }
 
-
+   
