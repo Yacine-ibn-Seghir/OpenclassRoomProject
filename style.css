@@ -85,52 +85,30 @@ ul { width: 200px; list-style-type: none;} /*Faire disparaître les puces*/
 
 #nom-responsive {display: none;}
 
-/* 
+
 @media all and (min-width: 768px) and (max-width: 1024px)
 
 {
 
- #CV { margin-bottom: 200px }
 
- #blockLoisirs { position: initial; bottom: 0px;}
 
- #block-gauche {height: 1200px; width: auto;}
-
- #img {margin: auto;}
-
- .invisible { display: none; }
-
- .nom-prénom { display: none;}
-
- .coordonnées {margin: auto; padding-left: 360px;}
-
- .trait-dev { height: 1px; margin-left: 12.5%; margin-right: 78%;}
-
- .bagneux { width: 87%; text-align: justify; }
- 
- .trait { margin-right: -33%;}
-
- .marge-à-propos {width: 70%; margin-top: 80px; margin-bottom: -25px; padding-left: 125px; padding-right: 30px; text-align: justify;}
-
- #ensemble-des-blocks { flex-direction: column;}
-
-  #nom-responsive {display: block; margin-bottom: 50px}
-
-  #block-gauche { width: 100%;}
-}*/ 
 
 @media all and (max-width: 767px)
+
+
+
 
 {
 
 #ensemble-des-blocks { display: flex; flex-direction: column; width: 114%; /*Permet d'aligner les blocks: le block1; */}
 	 #block-gauche {flex-direction: column; height: 1200px; width: 100%;  padding-top: 45px;}
 	 #block-droite { width: 100%; padding-left: 0px; padding-right: 0px }
-	 #img { display: block; width: 50vw; border-radius: 100%; margin: auto;}
+	 #img {width: 50vw; border-radius: 100%; margin: auto;}
 	 #nom-responsive { display: block; }
 	 .nom-prénom { display: none; }
 	 .prénom { font-size: 9vw; margin-left: 19%; margin-right: 0%; }
 	 .trait-dev { height: 1px; margin-left: 18.5%; margin-right: 63%; margin-bottom: 7%;}
+	 .trait { margin-left: 6%; margin-right: 6%;}
 	 .nom {font-size: 9vw; margin-left: 0px; margin-right: 0px; }
 	 .flex-marge {flex-direction: column;}
 	 h2 { font-size: 5vw !important;}
@@ -138,8 +116,8 @@ ul { width: 200px; list-style-type: none;} /*Faire disparaître les puces*/
 	 .marge-dev { font-size: 7vw; margin-left: 15%; text-align: center;}
 	 .bagneux {width: 90%;  margin-left: 0%; text-align: justify;}
 	 .marge-puce li{ margin-right: 1px; margin-top: -1.5%; }
-	 .icône-resp{margin-top: 45px; margin-left: 7%;}
-	 .marge-resp { margin-top: 50px; margin-left: 20px; }
+	 .icône-resp { margin-top: 0%; margin-left: 7%;}
+	 .marge-resp { margin-top: 4px; margin-left: 20px; }
 	 .inline {display: inline;}
 	 .resp-marge2019{margin-top: -8.2%; margin-left: 7%}
 	 .resp-marge2018{ margin-top: -8%; margin-left: 7%; }
@@ -148,6 +126,10 @@ ul { width: 200px; list-style-type: none;} /*Faire disparaître les puces*/
 	 .resp-marge-top {margin-top: 0%;}
 	 .marge-liste{margin-top: -6%; padding-left: 21px;}
 	 .resp-marge-contact { margin-top: -5%; margin-left: 12%; }
+ }
+
+
+
 
 
 @media all and (min-width: 1024px) and (max-width: 1100px)
