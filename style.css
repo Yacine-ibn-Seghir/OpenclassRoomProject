@@ -86,55 +86,181 @@ ul { width: 200px; list-style-type: none;} /*Faire disparaître les puces*/
 #nom-responsive {display: none;}
 
 
-@media all and (min-width: 768px) and (max-width: 1024px)
-
-{
 
 
 
 
-@media all and (max-width: 767px)
+		@media all and (min-width: 320px) and (max-width: 767px)
 
+	{  
 
-
-
-{
-
-#ensemble-des-blocks { display: flex; flex-direction: column; width: 114%; /*Permet d'aligner les blocks: le block1; */}
+	#ensemble-des-blocks { display: flex; flex-direction: column; width: 114%; /*Permet d'aligner les blocks: le block1; */}
+	
 	 #block-gauche {flex-direction: column; height: 1200px; width: 100%;  padding-top: 45px;}
+	
 	 #block-droite { width: 100%; padding-left: 0px; padding-right: 0px }
+	
 	 #img {width: 50vw; border-radius: 100%; margin: auto;}
+	
 	 #nom-responsive { display: block; }
+	
 	 .nom-prénom { display: none; }
+	
 	 .prénom { font-size: 9vw; margin-left: 19%; margin-right: 0%; }
+	
 	 .trait-dev { height: 1px; margin-left: 18.5%; margin-right: 63%; margin-bottom: 7%;}
+
+	 .loisirs-couleurs{ width: 50px; height: 50px;}
+	
 	 .trait { margin-left: 6%; margin-right: 6%;}
+	
 	 .nom {font-size: 9vw; margin-left: 0px; margin-right: 0px; }
+	
 	 .flex-marge {flex-direction: column;}
+	
 	 h2 { font-size: 5vw !important;}
+	
 	 .invisible {display:none;}
+	
 	 .marge-dev { font-size: 7vw; margin-left: 15%; text-align: center;}
+	
 	 .bagneux {width: 90%;  margin-left: 0%; text-align: justify;}
+	
 	 .marge-puce li{ margin-right: 1px; margin-top: -1.5%; }
+	
 	 .icône-resp { margin-top: 0%; margin-left: 7%;}
+	
 	 .marge-resp { margin-top: 4px; margin-left: 20px; }
+	
 	 .inline {display: inline;}
+	
 	 .resp-marge2019{margin-top: -8.2%; margin-left: 7%}
+	
 	 .resp-marge2018{ margin-top: -8%; margin-left: 7%; }
+	
 	 .resp-marge2007{ margin-top: -8.3%; margin-left: 7% }
+	
 	 .marge-paragraphe {margin-left: 17%;}
+	
 	 .resp-marge-top {margin-top: 0%;}
-	 .marge-liste{margin-top: -6%; padding-left: 21px;}
-	 .resp-marge-contact { margin-top: -5%; margin-left: 12%; }
+	
+	 .marge-liste {  margin-top: -5%; margin-left: 54px;}
+	
+	 .resp-marge-contact { margin-top: -5%; margin-left: 7%; }
+
+	.fa-laptop-code {margin-top: 7%; margin-left: -2%; font-size: 11vw;}
+
+	.fa-book-reader { font-size: 12vw;}
+
+	.fa-running {font-size: 12vw;}
+ 	
+ 	.fa-arrow-alt-circle-right { margin-left: -5vw; }
+
+	 }
+
+
+	 @media all and (min-width: 768px) and (max-width: 1024px)
+
+	{  
+
+	#ensemble-des-blocks {width: 114%;}
+
+	#block-gauche { height: 250vw; width: 36%;  padding-top: 45px;}
+
+	#block-droite { width: 88%; padding-left: 0px; padding-right: 0px }
+
+	#img {width: 22vw; margin-top: 2vw; margin-left: 20%}
+
+	.nom-prénom { display: block; margin-top: 4%; }
+
+	.prénom { font-size: 7vw; margin-left: 16%;}
+
+	.trait-dev { height: 1px; margin-left: 25.5%; margin-right: 63%; margin-bottom: 13%; margin-top: -17%;}
+
+	.trait { margin-top: -3%; margin-left: 7%; margin-right: 6%;}
+
+	.nom {font-size: 6vw; margin-left: 0px; }
+
+	h2 { font-size: 3vw !important;}
+
+	.marge { margin-top: 30px; }
+
+	.marge-formation {margin-top: 5%; margin-left: 20px}
+
+	.marge-expérience { margin-top: 5%; margin-left: 20px; }
+
+	.marge-top-expérience {  margin-top: 7%; }
+
+	.marge-recommandation {margin-top: 30px; margin-left: 20px;}
+
+	.resp-marge-contact {  margin-left: -6vw; }
+
+	.resp-marge-contact {  margin-left: -7% }
+
+	.marge-dev {margin-bottom: 13vw; font-size: 3.7vw; margin-left: 4%; text-align: center; margin-top: -2vw;}
+
+	.bagneux {width: 90%;  margin-left: 0%; text-align: justify;}
+
+	.marge-puce { margin-left: : -27%; margin-top: 28.5%; }
+
+	.icône-resp { margin-top: 5%; margin-left: 7.5%;}
+
+	.marge-resp { margin-top: 42px margin-left: 20px }
+
+	.inline {display: inline;}
+
+	.resp-marge2019{  margin-top: -8.8%;margin-left: -4%}
+
+	.resp-marge2018{ margin-top: -8.8%; margin-left: -4%; }
+
+	.resp-marge2007{ margin-top: -8.8%; margin-left: -4% }
+
+	.marge-paragraphe {margin-left: -7%;}
+
+	.resp-marge-top {margin-top: 0%;}
+
+	.marge-liste{  margin-top: 7%; margin-left: 7%; }
+
+	.responsive-contact {  margin-top: 2.8%; margin-left: -1%;}
+
+	.loisirs-couleurs {width: 6vw; height: 6vw;}
+
+	.responsive-taille { font-size: 12vw; }
+
+	.fa-book-reader {  margin-top: -7%; font-size: 6vw; margin-right: -3%; }
+
+	.fa-laptop-code {margin-top: 6%; margin-left: -3%; font-size: 5vw;}
+
+	.fa-running { margin-top: -5%; font-size: 6vw; margin-left: -5%; }
+ 	
+ 	.fa-arrow-alt-circle-right { margin-left: 1vw; }
+
+
+
+
+
  }
 
 
-
-
-
-@media all and (min-width: 1024px) and (max-width: 1100px)
+@media all and (min-width: 1025px) and (max-width: 1440px)
 {
- .trait-dev { height: 1px; margin-left: 12%; margin-right: 80%;}
-}
 
-   
+
+	#img {width: 15vw; margin-top: -2vw;}
+
+	.responsive-taille { font-size: 3vw; margin-top: 7%; }
+
+	.loisirs-couleurs {width: 4vw; height: 4vw}
+
+	.prénom {margin-left: 12vw;}
+
+	.marge-dev {margin-left: 23vw; }
+
+	.trait-dev { margin-left: 23vw; margin-right: 38vw }
+
+	.trait {margin-left: 4%; margin-right: 4%; }
+
+	.marge-resp{ margin-bottom: 1%;}
+
+
+} 
