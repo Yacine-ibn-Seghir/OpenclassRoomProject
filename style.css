@@ -55,7 +55,7 @@ ul { width: 200px; list-style-type: none;} /*Faire disparaître les puces*/
 
 .marge-cercle { margin-left: 40px; margin-top: 15px; }
 
-.marge-liste { padding-left: 10px;}
+.marge-liste { padding-left: 40px;}
 
 .marge-recommandation { margin-top: 80px; margin-left: 20px;}
 
@@ -140,11 +140,11 @@ ul { width: 200px; list-style-type: none;} /*Faire disparaître les puces*/
 	
 	 .resp-marge2007{ margin-top: -8.3%; margin-left: 7% }
 	
-	 .marge-paragraphe {margin-left: 17%;}
+	 .marge-paragraphe {margin-left: 18%;}
 	
 	 .resp-marge-top {margin-top: 0%;}
 	
-	 .marge-liste {  margin-top: -5%; margin-left: 54px;}
+	 .marge-liste {  margin-top: -5%; margin-left: 24px;}
 	
 	 .resp-marge-contact { margin-top: -5%; margin-left: 7%; }
 
@@ -219,7 +219,7 @@ ul { width: 200px; list-style-type: none;} /*Faire disparaître les puces*/
 
 	.resp-marge-top {margin-top: 0%;}
 
-	.marge-liste{  margin-top: 7%; margin-left: 7%; }
+	.marge-liste{  margin-top: 7%; margin-left: -7%; }
 
 	.responsive-contact {  margin-top: 2.8%; margin-left: -1%;}
 
