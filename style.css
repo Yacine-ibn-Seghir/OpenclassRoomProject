@@ -105,16 +105,13 @@
 	
 	.prénom { font-size: 9vw; margin-left: 0%; margin-right: 0%; }
 	
-	.trait-dev { height: 1px;  margin-left: 3%; margin-right: 77%; margin-bottom: 10%;}
+	.trait-dev { height: 1px;  margin-left: 11.5%; margin-right: 72%; margin-bottom: 10%;}
 
 	.loisirs-couleurs{ width: 14vw; height: 14vw;}
 	
 	.trait { margin-left: 6%; margin-right: 6%;}
 	
 	.nom {font-size: 8vw; margin-left: 0px; margin-right: 0px; }
-
-
-					{ margin-left: 22vw; }
 	
 	.flex-marge {flex-direction: column;}
 	
@@ -122,7 +119,7 @@
 	
 	.invisible {display:none;}
 	
-	.marge-dev { font-size: 6vw; margin-left: -8vw; text-align: center; margin-top: -6vw;}
+	.marge-dev {font-weight: normal; ;font-size: 6vw; margin-left: -6vw; text-align: center; margin-top: -5vw;}
 	
 	.bagneux {width: 90%;  margin-left: 0%; text-align: justify;}
 	
