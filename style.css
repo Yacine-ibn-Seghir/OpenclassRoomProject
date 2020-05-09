@@ -93,7 +93,7 @@
 
 	#ensemble-des-blocks { display: flex; flex-direction: column; width: 114%; /*Permet d'aligner les blocks: le block1; */}
 	
-	#block-gauche {flex-direction: column; height: 1200px; width: 100%;  padding-top: 45px;}
+	#block-gauche {flex-direction: column; height: 1300px; width: 100%;  padding-top: 45px;}
 	
 	#block-droite { width: 100%; padding-left: 0px; padding-right: 0px }
 	
@@ -105,7 +105,7 @@
 	
 	.prénom { font-size: 9vw; margin-left: 0%; margin-right: 0%; }
 	
-	.trait-dev { height: 1px;  margin-left: 11.5%; margin-right: 72%; margin-bottom: 10%;}
+	.trait-dev { height: 1px;  margin-left: 9vw; margin-right: 57vw; margin-bottom: 8vw;}
 
 	.loisirs-couleurs{ width: 14vw; height: 14vw;}
 	
@@ -161,7 +161,7 @@
 {  
 	#ensemble-des-blocks {width: 114%;}
 
-	#block-gauche { height: auto; width: 36%;  padding-top: 45px;}
+	#block-gauche {width: 36%;  padding-top: 45px;}
 
 	#block-droite { width: 88%; padding-left: 0px; padding-right: 0px; padding-bottom: 4vw; }
 
@@ -225,7 +225,7 @@
 
 	.responsive-taille { font-size: 12vw; }
 
-	.fa-book-reader {  margin-top: -7%; font-size: 6vw; margin-right: -3%; }
+	.fa-book-reader {  margin-top: 0.4vw; font-size: 5vw; margin-right:0vw }
 
 	.fa-user-graduate { margin-top: 3.2vw; }
 
