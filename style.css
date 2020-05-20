@@ -27,9 +27,9 @@
 
 	#CV { display: flex; flex-direction: column; }
 
-	#ensemble-des-blocks { display: flex; /*Permet d'aligner les blocks: le block1; */}
+	#ensemble-des-blocks { display: flex; /*Permet d'aligner les blocks gauche et droit */}
 
-	#block-gauche {position: relative; width: 30%; height: 1840px; padding-top: 100px;} 
+	header {position: relative; width: 30%; height: 1840px; padding-top: 100px;} 
 
 	#img { display: block; width: 60%; border-radius: 100%; margin: auto;} /*image C.V */
 
@@ -75,15 +75,13 @@
 
 	.fa-user-graduate { margin-top: 9.3vw; margin-left: 40px; font-size: 1.5em}
 
-	.marge-puce { padding-left: 1vw;}
+	.marge-puce { padding-left: 1vw; width: 7vw;}
 
 	.marge-date { width: 6vw; } 
 
 	.marge-resp { font-family: 'comic_reliefregular'; }
 		
 	.marge-paragraphe { margin-left: 11vw;}
-
-	.marge-2018 {   margin-left: 5.6vw;}
  
 	.marge-cercle { margin-left: 40px; margin-top: 15px; }
 
@@ -116,7 +114,7 @@
 
 	.logos {margin:auto; text-align: center; font-size: 3.4vw}
 
-	.flex-marge { display: flex; font-family:'comic_reliefregular';margin-top: 20px; margin-bottom: 20px;}
+	.flex-marge { display: flex; font-family:'comic_reliefregular';margin-top: 1vw; margin-bottom: 3vw;}
 
 	#nom-responsive {display: none;}
 	
@@ -125,9 +123,9 @@
 @media all and (min-width: 320px) and (max-width: 767px)
 {  
 
-	#ensemble-des-blocks { display: flex; flex-direction: column; width: 114%; /*Permet d'aligner les blocks: le block1; */}
+	#ensemble-des-blocks { display: flex; flex-direction: column; width: 114%; /*Permet d'aligner les blocks gauche et droit */}
 	
-	#block-gauche {flex-direction: column; height: 1380px; width: 100%;  padding-top: 45px;}
+	header {flex-direction: column; height: 1380px; width: 100%;  padding-top: 45px;}
 	
 	#block-droite { width: 100%; padding-left: 0px; padding-right: 0px }
 	
@@ -159,7 +157,7 @@
 	
 	.marge-puce li{ margin-top: -1.5%; }
 	
-	.marge-puce { padding-left: 12vw; margin-top: 4vw; }
+	.marge-puce { padding-left: 12vw; margin-top: 4vw; width: 51vw; }
 	
 	.icône-resp { margin-top: 0%; margin-left: 7%;}
 	
@@ -167,11 +165,7 @@
 	
 	.inline {display: inline;}
 	
-	.resp-marge2019{margin-top: -8.2%; margin-left: 7%}
-	
-	.resp-marge2018{ margin-top: -8.4%; margin-left: 7%; }
-	
-	.resp-marge2007{ margin-top: -8.2%; margin-left: 7% }
+	.resp-marge{ margin-top: -8.2%; margin-left: 7% }
 
 	.marge-2018 { margin-left: 20.6vw; }
 	
@@ -186,6 +180,8 @@
 	.resp-marge-contact { margin-top: -6%; margin-left: 7%; }
 
 	.fa-laptop-code {margin-top: 7%; margin-left: -2%; font-size: 11vw;}
+
+	.fa-edit { margin-top: 1vw; }
 
 	.fa-book-reader { font-size: 12vw;}
 
@@ -223,19 +219,21 @@
 
 	.flex { margin-top: -7vw; display: flex; }
 
-	.marge-resp-2018 { margin-left: 16vw; }
+	.marge-resp-2018 { margin-left: 11vw; }
 
 	.marge { margin-top: 30px; }
 
+	.marge-cercle { margin-top: 14px; }
+
 	.marge-bts { margin-left: 10.6vwvw; }
 
-	.marge-formation {margin-top: 5%; margin-left: 20px}
+	.marge-formation {margin-top: 5%; margin-left: 20px;}
 
 	.marge-expérience { margin-top: 5%; margin-left: 20px; }
 
 	.marge-top-expérience {  margin-top: 7%; }
 
-	.marge-recommandation {margin-top: 10.5vw; margin-left: 4vw;}
+	.marge-recommandation {margin-top: 10.5vw; margin-left: 20px;}
 
 	.resp-marge-contact {  margin-left: -6vw; }
 
@@ -251,7 +249,7 @@
 
 	.bagneux {width: 90%;  margin-left: 0%; text-align: justify;}
 
-	.marge-puce { margin-left: : -27%; margin-top: 9.2vw; padding-left: 5vw;}
+	.marge-puce { margin-left: : -27%; padding-left: 2vw; width: 12vw;}
 
 	.icône-resp { margin-top: 5%; margin-left: 7.5%;}
 
@@ -285,11 +283,11 @@
 
 	.fa-user-graduate { margin-top: 4.3vw; }
 
-	.fa-edit { margin-top: 10vw; }
+	.fa-edit { margin-top: 10.9vw; }
 	
 	.fa-laptop-code {margin-top: 6%; margin-left: -3%; font-size: 5vw;}
 
-	.fa-briefcase { margin-top: 3.4vw;  }
+	.fa-briefcase { margin-top: 4.2vw;  }
 
 	.fa-running { margin-top: -5%; font-size: 6vw; margin-left: -5%; }
  	
