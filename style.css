@@ -273,7 +273,7 @@
 
 	.marge-liste{  margin-top: 7%; margin-left: 1%; }
 
-	.responsive-contact {  margin-top: 2.8%; margin-left: -1%;}
+	.responsive-contact {  margin-top: 2.3vw; margin-left: -1%;}
 
 	.loisirs-couleurs {width: 6vw; height: 6vw;}
 
@@ -292,6 +292,8 @@
 	.fa-running { margin-top: -5%; font-size: 6vw; margin-left: -5%; }
  	
  	.fa-arrow-alt-circle-right { margin-left: 1vw; }
+
+ 	.responsive-marge { margin-top: 0.7vw;}
 }
 
 
